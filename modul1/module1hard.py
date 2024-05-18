@@ -4,6 +4,6 @@ students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}
 students_list = sorted(students)
 students_x = 0
 for i in grades:
-    print(students_list[students_x],  ((sum(grades[grades_x]) / len(grades[grades_x]))))
+    print({(students_list[students_x]): ((sum(grades[grades_x]) / len(grades[grades_x])))}, end=', ')
     grades_x = grades_x + 1
     students_x = students_x + 1
